@@ -1,6 +1,14 @@
 package com.ws.base;
 
 import java.io.File;
+
+/*
+ * Class DriverScript
+ * Desc: This class is responsible for managing all the driver instance across the project
+ * use this driver reference in other classes where driver reference is needed. Don't create duplicate driver reference
+ * Developed By:
+ * Approved By:
+ */
 import java.io.FileInputStream;
 import java.util.Properties;
 
